@@ -1,0 +1,26 @@
+{
+  "name": "@thematter_io/plasma.js",
+  "version": "1.0.0",
+  "description": "Plasma by Matter",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matterinc/plasma.js.git"
+  },
+  "keywords": [
+    "plasma",
+    "matter"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/matterinc/plasma.js/issues"
+  },
+  "homepage": "https://github.com/matterinc/plasma.js#readme",
+  "devDependencies": {
+    "rollup": "^0.67.0"
+  }
+}
