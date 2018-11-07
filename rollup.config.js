@@ -7,7 +7,7 @@ export default {
   external: [
     'assert',
     'is-buffer',
-  	'js-sha3',
+    'js-sha3',
     'ethereumjs-util',
     'strip-hex-prefix',
   ],
