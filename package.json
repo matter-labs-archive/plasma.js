@@ -7,7 +7,7 @@
   "scripts": {
     "build": "rollup -c"
   },
-  "postpublish" : "PACKAGE_VERSION=$(cat package.json | grep \\\"version\\\" | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git tag v$PACKAGE_VERSION && git push --tags",
+  "postpublish": "PACKAGE_VERSION=$(cat package.json | grep \\\"version\\\" | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git tag v$PACKAGE_VERSION && git push --tags",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/matterinc/plasma.js.git"
@@ -28,6 +28,7 @@
   "dependencies": {
     "ethereumjs-util": "^6.0.0",
     "is-buffer": "^2.0.3",
-    "js-sha3": "^0.8.0"
+    "js-sha3": "^0.8.0",
+    "strip-hex-prefix": "^1.0.0"
   }
 }
