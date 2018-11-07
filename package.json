@@ -1,6 +1,6 @@
 {
   "name": "@thematter_io/plasma.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plasma by Matter",
   "main": "dist/bundle.js",
   "module": "src/index.js",
