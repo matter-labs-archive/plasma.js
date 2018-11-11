@@ -64,7 +64,7 @@ var MerkleTools = function (treeOptions) {
       case 'SHA3-512':
         return new Buffer(sha3512.array(value))
       case 'sha3':
-        return ethUtil$1.sha3(value, 256)  
+        return ethUtil$1.keccak256(value, 256)  
       default:
         return crypto.createHash(hashType).update(value).digest()
     }
@@ -803,7 +803,7 @@ class PlasmaTransaction {
     const numInputs = this.inputs.length;
     const numOutputs = this.outputs.length;
     if (txType === TxTypeMerge) {
-        if (numInputs !== 2 || numOutputs !== 1) {
+        if (numInputs < 1 || numInputs > numInputsForType[TxTypeMerge] || numOutputs !== 1) { // later will be restricted to "numInputs < 2"
             return false
         }
     } else if (txType === TxTypeSplit) {
@@ -870,7 +870,7 @@ class PlasmaTransaction {
 
 const numInputsForType = {};
 numInputsForType[TxTypeFund] =  1;
-numInputsForType[TxTypeMerge] = 2;
+numInputsForType[TxTypeMerge] = 3;
 numInputsForType[TxTypeSplit] = 1;
 
 const numOutputsForType = {};
