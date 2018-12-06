@@ -118,4 +118,4 @@ Our Ether wallet address: 0xe22b8979739d724343bd002f9f432f5990879901
 
 ## License
 
-PlasmaSwiftLib is available under the Apache License 2.0 license. See the [LICENSE](https://github.com/matterinc/plasma.js/blob/master/LICENSE) for details.
+plasma.js is available under the Apache License 2.0 license. See the [LICENSE](https://github.com/matterinc/plasma.js/blob/master/LICENSE) for details.
