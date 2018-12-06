@@ -108,7 +108,7 @@ Denis Khoruzhiy, [@DirectX](https://github.com/DirectX)
 
 ## Donations
 
-[The Matters](https://github.com/orgs/matterinc/people) are charged with open-sorсe and do not require money for using their `PlasmaSwiftLib`.
+[The Matters](https://github.com/orgs/matterinc/people) are charged with open-sorсe and do not require money for using their `plasma.js`.
 We want to continue to do everything we can to move the needle forward.
 If you use any of our libraries for work, see if your employers would be interested in donating. Any amount you can donate today to help us reach our goal would be greatly appreciated.
 
