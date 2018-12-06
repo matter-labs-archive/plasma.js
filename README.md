@@ -22,7 +22,20 @@ JavaScript library describes TX & Block RLP structure for More Viable Plasma by 
 
 Use it to serialize and sign raw transactions for Plasma.
 
-## Istallation
+<!-- toc -->
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [RLP structures](#rlp-structures)
+  * [Transaction structure](#transaction-structure)
+  * [Block structure](#block-structure)
+- [Credits](#credits)
+- [Donations](#donations)
+- [License](#license)
+
+<!-- tocstop -->
+
+## Installation
 
 ```bash
 npm install @thematter_io/plasma.js
